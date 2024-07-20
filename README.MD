@@ -2,39 +2,43 @@
 
 ## Introducción
 
-El objetivo es realizar un análisis de datos sobre la anemia infantil en la región Junín.
+El objetivo es realizar un análisis sobre la anemia infantil en la región Junín.
 
-El dataset utilizado fue extraído y está disponible en el siguiente enlace: [dataset](https://www.datosabiertos.gob.pe/dataset/ni%C3%B1os-menores-de-36-meses-con-dx-de-anemia-en-la-regi%C3%B3n-jun%C3%ADn-direcci%C3%B3n-regional-de-salud)
+El dataset utilizado asi como su diccionario y metadatos fueron extraídos y están disponibles en el siguiente enlace: [Datos abiertos gob](https://www.datosabiertos.gob.pe/dataset/ni%C3%B1os-menores-de-36-meses-con-dx-de-anemia-en-la-regi%C3%B3n-jun%C3%ADn-direcci%C3%B3n-regional-de-salud)
+
+## Objetivo
+
+1. Entender las consideraciones demograficas de la anemia infantil en Junin.
+2. Crear un modelo para predecir el tiempo de recuperacion y/o el numero de tratamientos segun el diagnostico inicial.
+
+![The plot](./images/plot.png)
 
 ## Composición del Dataset
 
 El dataset muestra la cantidad de niños menores de 36 meses con diagnóstico de anemia por establecimientos de salud en la Región Junín. Este registro presenta los siguientes campos más resaltantes:
 
-### Datos del Paciente
+**Datos del Paciente**
 
 - Tipo de seguro
 - Datos del paciente niño
-
-### Diagnóstico
+  
+**Diagnóstico**
 
 - Fecha de diagnóstico con anemia
 - Valor de hemoglobina
 - Fecha de dosaje
-
-### Seguimiento
+  
+**Seguimiento**
 
 - Fecha de dosaje al mes
 - Fecha de dosaje a los 3 meses
 - Fecha de dosaje a los 6 meses
 - Valor de hemoglobina para cada fecha
-
-### Conclusión del Tratamiento
-
 - Fecha de recuperación
 - Fechas de suplementación
 - Fecha de fin de tratamiento
 
-### Datos Geográficos
+**Datos Geográficos**
 
 - Red de salud
 - Micro red de salud
