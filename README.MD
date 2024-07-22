@@ -9,7 +9,7 @@ El dataset utilizado asi como su diccionario y metadatos fueron extraídos y est
 ## Objetivo
 
 1. Entender las consideraciones demograficas de la anemia infantil en Junin.
-2. Crear un modelo para predecir el tiempo de recuperacion y/o el numero de tratamientos segun el diagnostico inicial.
+2. Crear un modelo para predecir el tiempo de recuperacion y/o el numero de tratamientos segun datos disponibles en el diagnostico inicial.
 
 ![The plot](./images/plot.png)
 
@@ -48,10 +48,28 @@ El dataset muestra la cantidad de niños menores de 36 meses con diagnóstico de
 
 ## Objetivos
 
+Para medicos y sistemas (cumplimiento de directivas y normativas)
+
+- Verificar variabilidad segun estandares de salud
+- Verificar lab anemia al nacimiento (norma)
+- Verificar efectividad de cumplimiento de tomas de muestras u normativas
+
+Consultar por obtencion de data de los controles de muestras
+
+Cruce de datos geograficos o aplicacion de clustering
+- Califiicar por urbano o rural
+- Altitud o ecoregion
+
+Observaciones:
+El seguro predominante es el SIS
+
+Contextualizar segun habitantes en el espacio geografico
+
+### Preguntas 
+
 1. ¿Cuántos infantes se recuperan y cuánto tardan en recuperarse?
 2. ¿Cómo varían los tiempos de recuperación según los datos geográficos?
 3. ¿Cuáles son las diferencias según tipo de seguro?
-4. Otros
 
 ### Análisis Descriptivo y Exploratorio
 
